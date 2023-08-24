@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Header -->
+  <section class="w-full relative shadow-xl py-3 z-10">
+    <header class="max-w-[1320px] mx-auto">
+      <div class="flex flex-row justify-between container items-center">
+        <img src="./images/logo.svg" alt="" width="80px" />
+        <nav class="w-full">
+          <ul
+            class="flex flex-row justify-evenly text-3xl lg:text-xl sm:text-base sm:hidden"
+          >
+            <li
+              class="font-semibold uppercase px-3 py-2 hover:bg-hoverColor transition-colors"
+            >
+              <a href="">Про фонд</a>
+            </li>
+            <li
+              class="font-semibold uppercase px-3 py-2 hover:bg-hoverColor transition-colors"
+            >
+              <a href="">Проекты</a>
+            </li>
+            <li
+              class="font-semibold uppercase px-3 py-2 hover:bg-hoverColor transition-colors"
+            >
+              <a href="">Материалы</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="relative">
+          <a href="#link">
+            <button
+              class="px-4 py-2 uppercase bg-buttonColor border-black border-[3px] hover:text-white font-semibold"
+            >
+              Купить
+            </button>
+          </a>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <!-- Hero slider -->
+  <section class="mt-10">
+    <swiper-container class="mySwiper lg:w-[80%]" pagination="true">
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative" />
+      </swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+      <swiper-slide
+        ><img src="./images/slide1.jpg" alt="" class="relative"
+      /></swiper-slide>
+    </swiper-container>
+
+    <div class="w-full bg-[#f3f3f3] text-center mt-10">
+      <a
+        class="flex flex-row items-center justify-center cursor-pointer hover:text-[#495f35]"
+      >
+        <img src="./images/Bitcoin.svg.png" width="96px" alt="" class="mr-6" />
+        <div class="flex flex-col items-start">
+          <h2 class="text-5xl lg:text-3xl sm:text-xl sm:text-base">
+            Инвестируй в наш проект без рисков!
+          </h2>
+          <p class="text-lg lg:text-base sm:text-xs sm:text-[10px]">
+            Регистрируйся на нашей платформе
+          </p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <body>
+    <!-- Project -->
+    <section class="max-w-[1320px] container mt-10">
+      <div class="flex flex-row justify-between">
+        <h2 class="text-5xl lg:text-4xl md:text-3xl xs:text-2xl uppercase">
+          Активыне проекты
+        </h2>
+        <a href="">
+          <button
+            class="px-2 py-2 border-[2px] border-black font-semibold hover:bg-buttonColor hover:text-white lg:text-xl sm:text-sm"
+          >
+            Больше проектов
+          </button>
+        </a>
+      </div>
+
+      <article
+        class="mb-3 mt-5 grid grid-cols-4 gap-3 lg:grid-cols-2 sm:grid-cols-1"
+      >
+        <div
+          class="border-[1px] border-artBord p-5 cursor-pointer hover:shadow-2xl"
+        >
+          <a href="">
+            <img src="./images/slide1.jpg" alt="" class="mb-2" />
+            <h3 class="text-2xl mb-2 lg:text-xl sm:text-base">Bitcoin</h3>
+            <p class="text-sm lg:text-xs sm:text-sm">
+              Фонд компетентної допомоги армії «Повернись живим» спільно з
+              UNITED24 і monobank акумульовує 235 000 000 гривень на 10 тисяч
+              FPV-дронів із боєприпасами та комплектуючими.
+            </p>
+            <button
+              class="w-full mx-auto mt-5 px-1 py-2 border-black border-[2px] bg-buttonColor text-white font-semibold hover:text-black transition-colors"
+            >
+              Читать ...
+            </button>
+          </a>
+        </div>
+        <div
+          class="border-[1px] border-artBord p-5 cursor-pointer hover:shadow-2xl"
+        >
+          <a href="">
+            <img src="./images/slide1.jpg" alt="" class="mb-2" />
+            <h3 class="text-2xl mb-2 lg:text-xl sm:text-base">Bitcoin</h3>
+            <p class="text-sm lg:text-xs sm:text-sm">
+              Фонд компетентної допомоги армії «Повернись живим» спільно з
+              UNITED24 і monobank акумульовує 235 000 000 гривень на 10 тисяч
+              FPV-дронів із боєприпасами та комплектуючими.
+            </p>
+            <button
+              class="w-full mx-auto mt-5 px-1 py-2 border-black border-[2px] bg-buttonColor text-white font-semibold hover:text-black transition-colors"
+            >
+              Читать ...
+            </button>
+          </a>
+        </div>
+        <div
+          class="border-[1px] border-artBord p-5 cursor-pointer hover:shadow-2xl"
+        >
+          <a href="">
+            <img src="./images/slide1.jpg" alt="" class="mb-2" />
+            <h3 class="text-2xl mb-2 lg:text-xl sm:text-base">Bitcoin</h3>
+            <p class="text-sm lg:text-xs sm:text-sm">
+              Фонд компетентної допомоги армії «Повернись живим» спільно з
+              UNITED24 і monobank акумульовує 235 000 000 гривень на 10 тисяч
+              FPV-дронів із боєприпасами та комплектуючими.
+            </p>
+            <button
+              class="w-full mx-auto mt-5 px-1 py-2 border-black border-[2px] bg-buttonColor text-white font-semibold hover:text-black transition-colors"
+            >
+              Читать ...
+            </button>
+          </a>
+        </div>
+        <div
+          class="border-[1px] border-artBord p-5 cursor-pointer hover:shadow-2xl"
+        >
+          <a href="">
+            <img src="./images/slide1.jpg" alt="" class="mb-2" />
+            <h3 class="text-2xl mb-2 lg:text-xl sm:text-base">Bitcoin</h3>
+            <p class="text-sm lg:text-xs sm:text-sm">
+              Фонд компетентної допомоги армії «Повернись живим» спільно з
+              UNITED24 і monobank акумульовує 235 000 000 гривень на 10 тисяч
+              FPV-дронів із боєприпасами та комплектуючими.
+            </p>
+            <button
+              class="w-full mx-auto mt-5 px-1 py-2 border-black border-[2px] bg-buttonColor text-white font-semibold hover:text-black transition-colors"
+            >
+              Читать ...
+            </button>
+          </a>
+        </div>
+      </article>
+    </section>
+  </body>
+
+  <!-- Footer -->
+
+  <footer class="bg-footerColor">
+    <!-- Desktop footer -->
+    <section class="max-w-[1320px] mx-auto py-8 px-4 sm:hidden">
+      <div class="flex flex-row justify-between container lg:flex-wrap gap-4">
+        <div class="w-96 flex flex-col gap-2">
+          <img src="./images/logo.svg" alt="" class="w-24" />
+          <p class="text-titleColor text-xs">
+            Використання матеріалів сайту, зображень та текстів, а також
+            автоматизоване копіювання інформації сайту будь-якими програмами без
+            письмового дозволу «Повернись живим» заборонено.
+          </p>
+          <div>
+            <ul class="text-sm text-white flex flex-col gap-2">
+              <li>
+                <a href="" class="hover:text-[#959595]">Публичная оферта</a>
+              </li>
+              <li>
+                <a href="" class="hover:text-[#959595]"
+                  >Политика конфеденциальности</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-[#959595]">Информация о нас</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Socials -->
+          <div class="flex flex-row gap-3">
+            <a
+              href=""
+              class="border-white border-[1px] p-1 hover:border-[#959595] transition-colors fill-white hover:fill-[#959595]"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 8 14"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+              >
+                <path
+                  d="M2.12353 13.89V7.67497H0V5.2065H2.12353V3.2643C2.12353 1.15294 3.439 0.000151838 5.36208 0.000151838C6.01073 -0.00255421 6.65903 0.0309118 7.30396 0.100394V2.30573H5.9697C4.92359 2.30573 4.71688 2.79441 4.71688 3.50864V5.2065H7.07845L6.78404 7.67497H4.72314V13.89"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href=""
+              class="border-white border-[1px] p-1 hover:border-[#959595] transition-colors fill-white hover:fill-[#959595]"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 8 14"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+              >
+                <path
+                  d="M2.12353 13.89V7.67497H0V5.2065H2.12353V3.2643C2.12353 1.15294 3.439 0.000151838 5.36208 0.000151838C6.01073 -0.00255421 6.65903 0.0309118 7.30396 0.100394V2.30573H5.9697C4.92359 2.30573 4.71688 2.79441 4.71688 3.50864V5.2065H7.07845L6.78404 7.67497H4.72314V13.89"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col lg:hidden">
+          <p class="text-titleColor mb-2">ПРО ФОНД</p>
+          <ul class="flex flex-col gap-2 text-white">
+            <li><a href="" class="hover:text-[#959595] text-xs">Про нас</a></li>
+            <li>
+              <a href="" class="hover:text-[#959595] text-xs">Отчетность</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-[#959595] text-xs">Партнеры</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-[#959595] text-xs">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col lg:hidden">
+          <p class="text-titleColor mb-2">Материалы</p>
+          <ul class="flex flex-col gap-2 text-white">
+            <li>
+              <a href="" class="hover:text-[#959595] text-xs">Новости</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-[#959595] text-xs">Текты</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-[#959595] text-xs">Блоги</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-[#959595] text-xs">Аналитика</a>
+            </li>
+          </ul>
+        </div>
+        <div class="max-w-96 flex flex-col">
+          <div class="flex flex-row gap gap-3 mb-5">
+            <p class="text-titleColor text-xs w-full text-end sm:hidden">
+              Подключайся к нашей платформе бесплатно!
+            </p>
+            <a href="">
+              <button
+                class="px-4 py-2 uppercase bg-buttonColor border-white border-[3px] font-semibold text-white hover:text-black"
+              >
+                Купить
+              </button>
+            </a>
+          </div>
+          <hr class="border-titleColor sm:hidden" />
+          <div class="flex flex-col items-end mt-5 gap-2">
+            <p class="text-titleColor text-xs">пн-пт 10:00-19:00</p>
+            <a class="text-white font-bold" href="">+0 000-00-00</a>
+            <a class="text-white font-bold" href="">office@savelife.in.ua</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- mobile footer -->
+
+    <section class="hidden sm:block max-w-[540px] mx-auto container py-8">
+      <div class="flex flex-col gap-3">
+        <div class="flex flex-row justify-between">
+          <img src="./images/logo.svg" alt="" class="w-20" />
+          <a href="">
+            <button
+              class="px-4 py-2 uppercase bg-buttonColor border-white border-[3px] font-semibold text-white hover:text-black"
+            >
+              Купить
+            </button>
+          </a>
+        </div>
+        <div>
+          <p class="text-titleColor text-xs mb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            laborum. Repellat repudiandae, eligendi magnam et doloremque totam
+            modi possimus quasi a, necessitatibus, officia inventore obcaecati
+            consequuntur dolorum impedit dignissimos commodi!
+          </p>
+          <ul class="text-xs text-white flex flex-row gap-2 mb-2">
+            <li>
+              <a href="" class="hover:text-[#959595]">Публичная оферта</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-[#959595]"
+                >Политика конфеденциальности</a
+              >
+            </li>
+            <li>
+              <a href="" class="hover:text-[#959595]">Информация о нас</a>
+            </li>
+          </ul>
+          <!-- Socials -->
+          <div class="flex flex-row gap-3">
+            <a
+              href=""
+              class="border-white border-[1px] p-1 hover:border-[#959595] transition-colors fill-white hover:fill-[#959595]"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 8 14"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+              >
+                <path
+                  d="M2.12353 13.89V7.67497H0V5.2065H2.12353V3.2643C2.12353 1.15294 3.439 0.000151838 5.36208 0.000151838C6.01073 -0.00255421 6.65903 0.0309118 7.30396 0.100394V2.30573H5.9697C4.92359 2.30573 4.71688 2.79441 4.71688 3.50864V5.2065H7.07845L6.78404 7.67497H4.72314V13.89"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href=""
+              class="border-white border-[1px] p-1 hover:border-[#959595] transition-colors fill-white hover:fill-[#959595]"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 8 14"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+              >
+                <path
+                  d="M2.12353 13.89V7.67497H0V5.2065H2.12353V3.2643C2.12353 1.15294 3.439 0.000151838 5.36208 0.000151838C6.01073 -0.00255421 6.65903 0.0309118 7.30396 0.100394V2.30573H5.9697C4.92359 2.30573 4.71688 2.79441 4.71688 3.50864V5.2065H7.07845L6.78404 7.67497H4.72314V13.89"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col mt-5 gap-2">
+          <p class="text-titleColor text-xs">пн-пт 10:00-19:00</p>
+          <a class="text-white font-bold" href="">+0 000-00-00</a>
+          <a class="text-white font-bold" href="">office@savelife.in.ua</a>
+        </div>
+      </div>
+    </section>
+    <div class="bg-black">
+      <p class="max-w-[1320px] mx-auto text-white py-8 px-4">
+        © 2008-2023 Все права защещены.
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+</html>
